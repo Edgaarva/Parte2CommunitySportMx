@@ -1,6 +1,8 @@
+
 body {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
+	width: 100%;
   }
 
   .barra{
@@ -45,8 +47,8 @@ body {
 	width: 100%;
   }
   
-  .futbol {
-	border: solid 1px black;
+  .Futbol {
+	
 	font-size: 60px;
 	color: black;
 	margin: 0;
@@ -71,7 +73,7 @@ body {
   }
 
   .contenedor2{
-	  border: 1px solid red; 
+	  
 	  height: 100vh;
 	  display:flex;
 	  flex-direction: column;
@@ -80,31 +82,395 @@ body {
 	  
   }
 
-  .futbol{
-	  border: 1px orange solid;
+  .Futbol{
+	  
 	  display: flex;
 	  justify-content: center;
   }
 
-  .todo{
-	  border: 1px green solid;
+  .segundaSeccion{
+	  
+	  height: 85vh;
 	  display: flex;
 	  flex-direction: row;
+	  
+
+  }
+  
+  .mitad1{
+	  
+	  width: 50%;
+	  display: flex;
+	  flex-direction: column;
+
   }
 
-  .mapas{
-	border: 1px black solid;
-	width: 50%;
-	height: 85vh; 
+  .mapas1{
+	
+	height: 50%;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	
+  }
+
+  .mapa1{
+	border-radius: 20px;
+	
+	  width: 33.3%;
+	  height: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  
+	  
 
   }
 
-  .listados{
-	border: 1px black solid;
+  .arriba1{
+	  
+	  width: 100%;
+	  height: 37%;  
+  }
+
+  .titulo1{
+	  size: 1rem;
+	  font: Jaapokki; 
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+  }
+  .link1{
+	  size: 1rem;
+	  
+	  display: flex;
+	  justify-content: center;
+	  font: Jaapokki;
+	  color: white;
+  }
+
+  .abajo1{
+	
+	width: 100%;
+	height: 50%;
+}
+
+
+  .zona1{
+	  width: 33.3%;
+	  height: 50%;
+	  padding-left: 8px;
+	  
+	  
+  }
+
+  .mapa2{
+	border-radius: 20px;
+	
+	  width: 33.3%;
+	  height: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  
 
   }
+
+  .arriba2{
+	
+	width: 100%;
+	height: 37%;  
+}
+  
+
+  .titulo2{
+	  size: 1rem;
+	  font: Jaapokki; 
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+  }
+  .link2{
+	  size: 1rem;
+	  display: flex;
+	  justify-content: center;
+	  font: Jaapokki;
+	  color: blue;
+  }
+
+  .abajo2{
+	
+	width: 100%;
+	height: 50%;
+}
+
+  .zona2{
+	  width: 33.3%;
+	  height: 50%;
+	  padding-left: 8px;
+	  
+  }
+
+  .mapa3{
+	border-radius: 20px;
+	
+	  width: 33.3%;
+	  height: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  
+
+  }
+
+  .arriba3{
+	
+	width: 100%;
+	height: 37%;  
+}
+  
+
+  .titulo3{
+	  size: 1rem;
+	  font: Jaapokki;
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+  }
+  .link3{
+	  size: 1rem;
+	  display: flex;
+	  justify-content: center;
+	  font: Jaapokki;
+	  color: blue;
+  }
+
+  .abajo3{
+	
+	width: 100%;
+	height: 50%;
+	height: 50%;
+}
+
+  .zona3{
+	  width: 33.3%;
+	  height: 50%;
+	  padding-left: 8px;
+	  
+  }
+
+  .mapas2{
+	
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: center;
+
+  }
+
+  .mapa4{
+	border-radius: 20px;
+	
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arriba4{
+	
+	width: 100%;
+	height: 37%;  
+}
+
+
+.titulo4{
+	size: 1rem;
+	font: Jaapokki; 
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.link4{
+	size: 1rem;
+	
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: white;
+}
+
+.abajo4{
+	
+	width: 100%;
+	height: 50%;
+	padding-left: 8px;
+}
+
+.zona4{
+	width: 33.3%;
+	
+}
+
+.mapa5{
+	border-radius: 20px;
+	
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arriba5{
+	
+	width: 100%;
+	height: 37%;  
+}
+
+
+.titulo5{
+	size: 1rem;
+	font: Jaapokki; 
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.link5{
+	size: 1rem;
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: blue;
+}
+
+.abajo5{
+	
+	width: 100%;
+	height: 50%;
+	padding-left: 8px;
+}
+
+.zona5{
+	width: 33.3%;
+	
+}
+
+.mapa6{
+	
+	border-radius: 20px;
+	
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arriba6{
+	
+	width: 100%;
+	height: 37%;  
+}
+
+.titulo6{
+	size: 1rem;
+	font: Jaapokki;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.link6{
+	size: 1rem;
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: blue;
+}
+
+.abajo6{
+	
+	width: 100%;
+	height: 50%;
+	padding-left: 8px;
+}
+
+
+
+	
+
+.zona6{
+	width: 33.3%;
+	height: 50%;
+}
+
+.mitad2{
+ 
+ width: 50%;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cajaChica{
+	width: 70%;
+	height: auto;
+}
+
+.container {
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+	
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #F39B53;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #F39B53;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+
+
+  
+
   
   p.logo {
 	color: #fff;
@@ -247,7 +613,8 @@ body {
 	background: #fff;
 	padding: 20px;
   }
-  
+
+ 
   #blog h4 {
 	font-size: 23px;
 	margin: 0;
@@ -577,3 +944,9 @@ border: black 1px solid; */
   font: Jaapokki;
   text-shadow: -4px 3px 0 #ff0000, -14px 7px 0 #0a0e27;
 }
+
+
+
+
+
+
