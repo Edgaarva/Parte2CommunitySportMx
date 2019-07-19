@@ -35,6 +35,7 @@ body {
   }
   
   header {
+	border: #0a0e27 2px solid;
 	background: linear-gradient(rgba(255, 95, 188, 0.9), rgba(2, 56, 110, 0.9)), url(../imagenes/fondo.jpg);
 	height: 100vh;
 	background-size: cover;
@@ -72,20 +73,29 @@ body {
 	display: inline-block;
   }
 
+  /* Empieza apartado futbol */
+
   .contenedor2{
 	  
 	  height: 100vh;
 	  display:flex;
 	  flex-direction: column;
-	  background-image: url('http://www.purosoftware.com/escritorio-fondo-de-pantalla/imagenes/06-wallpaper-hd-futbol-en-el-agua-01.jpg');
-	  background-size: cover;
+	  /* background-image: url('http://www.purosoftware.com/escritorio-fondo-de-pantalla/imagenes/06-wallpaper-hd-futbol-en-el-agua-01.jpg'); */
+	  /* background-size: cover; */
+	  background-color: #fff;
 	  
   }
 
+a{
+	  color: white;
+  }
+
   .Futbol{
-	  
+	  border: solid 2px #00afd8;
+	  background-color: #00afd8; 
 	  display: flex;
 	  justify-content: center;
+	  color: white;
   }
 
   .segundaSeccion{
@@ -96,6 +106,8 @@ body {
 	  
 
   }
+
+  
   
   .mitad1{
 	  
@@ -104,6 +116,8 @@ body {
 	  flex-direction: column;
 
   }
+
+  
 
   .mapas1{
 	
@@ -135,7 +149,7 @@ body {
   .titulo1{
 	  size: 1rem;
 	  font: Jaapokki; 
-	  color: white;
+	  color: #5cb8ff;
 	  display: flex;
 	  justify-content: center;
   }
@@ -147,6 +161,24 @@ body {
 	  font: Jaapokki;
 	  color: white;
   }
+
+   a {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+button:hover{
+    /* color: blue !important; */
+    text-decoration: none  !important;
+	background-color: white !important;
+	color: #5cb8ff !important;
+}
+
+a:hover{
+	color: #5cb8ff !important;
+	text-decoration: none !important;
+}
 
   .abajo1{
 	
@@ -184,7 +216,7 @@ body {
   .titulo2{
 	  size: 1rem;
 	  font: Jaapokki; 
-	  color: white;
+	  color: #5cb8ff;
 	  display: flex;
 	  justify-content: center;
   }
@@ -193,7 +225,7 @@ body {
 	  display: flex;
 	  justify-content: center;
 	  font: Jaapokki;
-	  color: blue;
+	  color: #5cb8ff;
   }
 
   .abajo2{
@@ -230,7 +262,7 @@ body {
   .titulo3{
 	  size: 1rem;
 	  font: Jaapokki;
-	  color: white;
+	  color: #5cb8ff;
 	  display: flex;
 	  justify-content: center;
   }
@@ -239,7 +271,7 @@ body {
 	  display: flex;
 	  justify-content: center;
 	  font: Jaapokki;
-	  color: blue;
+	  color: #5cb8ff;
   }
 
   .abajo3{
@@ -287,7 +319,7 @@ body {
 .titulo4{
 	size: 1rem;
 	font: Jaapokki; 
-	color: white;
+	color: #5cb8ff;
 	display: flex;
 	justify-content: center;
 }
@@ -333,7 +365,7 @@ body {
 .titulo5{
 	size: 1rem;
 	font: Jaapokki; 
-	color: white;
+	color: #5cb8ff;
 	display: flex;
 	justify-content: center;
 }
@@ -342,7 +374,7 @@ body {
 	display: flex;
 	justify-content: center;
 	font: Jaapokki;
-	color: blue;
+	color: #5cb8ff;
 }
 
 .abajo5{
@@ -378,7 +410,7 @@ body {
 .titulo6{
 	size: 1rem;
 	font: Jaapokki;
-	color: white;
+	color: #5cb8ff;
 	display: flex;
 	justify-content: center;
 }
@@ -387,7 +419,7 @@ body {
 	display: flex;
 	justify-content: center;
 	font: Jaapokki;
-	color: blue;
+	color: #5cb8ff;
 }
 
 .abajo6{
@@ -428,6 +460,15 @@ body {
 	
 }
 
+
+
+
+.botonregistrarte:hover{
+	color: #5cb8ff;
+	text-decoration: none !important;
+	background-color: white
+}
+
 .form__top {
 	width: 100%;
 	text-align: center;
@@ -466,6 +507,387 @@ h2 span {
 	border: none;
 	border-bottom: solid #C8C8C8 .2rem;
 	transition: all .5s;
+}
+
+/* Termina apartado futbol */
+
+
+/* COmienza Basquet */
+
+.contenedor4{
+	  
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	/* background-image: url('http://www.purosoftware.com/escritorio-fondo-de-pantalla/imagenes/06-wallpaper-hd-futbol-en-el-agua-01.jpg'); */
+	/* background-size: cover; */
+	background-color: #fff;
+	
+}
+
+a{
+	color: white;
+}
+
+.Basquet{
+	border: solid 2px #00afd8;
+	background-color: #00afd8; 
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.segundaSeccion2{
+	
+	height: 85vh;
+	display: flex;
+	flex-direction: row;
+	
+
+}
+
+
+
+.mitad1_2{
+	
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+.mapas1_2{
+  
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.mapa1_2{
+  border-radius: 20px;
+  
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	
+
+}
+
+.arriba1_2{
+	
+	width: 100%;
+	height: 37%;  
+}
+
+.titulo1_2{
+	size: 1rem;
+	font: Jaapokki; 
+	color: #5cb8ff;
+	display: flex;
+	justify-content: center;
+}
+.link1_2{
+	size: 1rem;
+	
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: white;
+}
+
+ a {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+button:hover{
+  /* color: blue !important; */
+  text-decoration: none  !important;
+  background-color: white !important;
+  color: #5cb8ff !important;
+}
+
+a:hover{
+  color: #5cb8ff !important;
+  text-decoration: none !important;
+}
+
+.abajo1_2{
+  
+  width: 100%;
+  height: 50%;
+}
+
+
+.zona1_2{
+	width: 33.3%;
+	height: 50%;
+	padding-left: 8px;
+	
+	
+}
+
+.mapa2_2{
+  border-radius: 20px;
+  
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arriba2_2{
+  
+  width: 100%;
+  height: 37%;  
+}
+
+
+.titulo2_2{
+	size: 1rem;
+	font: Jaapokki; 
+	color: #5cb8ff;
+	display: flex;
+	justify-content: center;
+}
+.link2_2{
+	size: 1rem;
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: #5cb8ff;
+}
+
+.abajo2_2{
+  
+  width: 100%;
+  height: 50%;
+}
+
+.zona2_2{
+	width: 33.3%;
+	height: 50%;
+	padding-left: 8px;
+	
+}
+
+.mapa3_2{
+  border-radius: 20px;
+  
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.arriba3_2{
+  
+  width: 100%;
+  height: 37%;  
+}
+
+
+.titulo3_2{
+	size: 1rem;
+	font: Jaapokki;
+	color: #5cb8ff;
+	display: flex;
+	justify-content: center;
+}
+.link3_2{
+	size: 1rem;
+	display: flex;
+	justify-content: center;
+	font: Jaapokki;
+	color: #5cb8ff;
+}
+
+.abajo3_2{
+  
+  width: 100%;
+  height: 50%;
+  height: 50%;
+}
+
+.zona3_2{
+	width: 33.3%;
+	height: 50%;
+	padding-left: 8px;
+	
+}
+
+.mapas2_2{
+  
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+
+}
+
+.mapa4_2{
+  border-radius: 20px;
+  
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.arriba4_2{
+  
+  width: 100%;
+  height: 37%;  
+}
+
+
+.titulo4_2{
+  size: 1rem;
+  font: Jaapokki; 
+  color: #5cb8ff;
+  display: flex;
+  justify-content: center;
+}
+.link4_2{
+  size: 1rem;
+  
+  display: flex;
+  justify-content: center;
+  font: Jaapokki;
+  color: white;
+}
+
+.abajo4_2{
+  
+  width: 100%;
+  height: 50%;
+  padding-left: 8px;
+}
+
+.zona4_2{
+  width: 33.3%;
+  
+}
+
+.mapa5_2{
+  border-radius: 20px;
+  
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.arriba5_2{
+  
+  width: 100%;
+  height: 37%;  
+}
+
+
+.titulo5_2{
+  size: 1rem;
+  font: Jaapokki; 
+  color: #5cb8ff;
+  display: flex;
+  justify-content: center;
+}
+.link5_2{
+  size: 1rem;
+  display: flex;
+  justify-content: center;
+  font: Jaapokki;
+  color: #5cb8ff;
+}
+
+.abajo5_2{
+  
+  width: 100%;
+  height: 50%;
+  padding-left: 8px;
+}
+
+.zona5_2{
+  width: 33.3%;
+  
+}
+
+.mapa6_2{
+  
+  border-radius: 20px;
+  
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.arriba6_2{
+  
+  width: 100%;
+  height: 37%;  
+}
+
+.titulo6_2{
+  size: 1rem;
+  font: Jaapokki;
+  color: #5cb8ff;
+  display: flex;
+  justify-content: center;
+}
+.link6_2{
+  size: 1rem;
+  display: flex;
+  justify-content: center;
+  font: Jaapokki;
+  color: #5cb8ff;
+}
+
+.abajo6_2{
+  
+  width: 100%;
+  height: 50%;
+  padding-left: 8px;
+}
+
+
+
+  
+
+.zona6_2{
+  width: 33.3%;
+  height: 50%;
+}
+
+
+
+
+/* Termina apartado basquetbol */
+
+/* Comienza beisbol */
+
+.Beisbol{
+	border:2px solid  #5cb8ff;
+	background-color:  #5cb8ff;
+	color: #fff;
 }
 
 
@@ -903,13 +1325,13 @@ border: black 1px solid; */
 
 
 .contenedor4{
-	background: linear-gradient(rgba(220, 235, 17, 0.9), rgba(46, 0, 121, 0.9)), url(../imagenes/fondo.jpg);
+	background-color: white ;
 	height: 100vh;
 	background-size: cover;
 }
 
 .contenedor3{
-	background: linear-gradient(rgba(46, 9, 255, 0.9), rgba(1, 173, 136, 0.9)), url(../imagenes/fondo.jpg);
+	background: white;
 	height: 100vh;
 	background-size: cover;
 }
