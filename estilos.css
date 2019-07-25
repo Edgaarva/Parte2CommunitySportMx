@@ -1,4 +1,3 @@
-
 body {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
@@ -36,16 +35,20 @@ body {
   
   header {
 	border: #0a0e27 2px solid;
-	background: linear-gradient(rgba(255, 95, 188, 0.9), rgba(2, 56, 110, 0.9)), url(../imagenes/fondo.jpg);
-	height: 100vh;
+	/* background: linear-gradient(rgba(255, 95, 188, 0.9), rgba(2, 56, 110, 0.9)), url(../imagenes/fondo.jpg); */
+	background-image: url(https://images6.alphacoders.com/551/551432.jpg);
+	height: 80vh;
 	background-size: cover;
   }
   
   #contenedor-titulo-flex {
-	display: flex;
-	justify-content: center;
-	margin: 18vh 0;
-	width: 100%;
+	
+		display: block;
+		width: 70%;
+		justify-content: center;
+		margin: 18vh 15%;
+	
+
   }
   
   .Futbol {
@@ -163,9 +166,9 @@ a{
   }
 
    a {
-    color: white !important;
-    text-decoration: none !important;
-    background-color: transparent !important;
+    color: white;
+    text-decoration: none ;
+    background-color: transparent ;
 }
 
 button:hover{
@@ -1295,9 +1298,6 @@ a:hover{
 border: black 1px solid; */
 
 
-	
-}
-
 .contenido{
 	border: 1px solid black;
 	margin-right: 1045px;
@@ -1365,6 +1365,13 @@ border: black 1px solid; */
 
   font: Jaapokki;
   text-shadow: -4px 3px 0 #ff0000, -14px 7px 0 #0a0e27;
+}
+
+
+
+
+.stikya{
+	color:#333!important
 }
 
 
